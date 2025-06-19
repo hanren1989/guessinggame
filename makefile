@@ -7,3 +7,4 @@ README.md: guessinggame.sh
 	echo "Date and Time: $$(date)" >> README.md
 	echo "" >> README.md
 	echo "Number of files in this directory : $$(ls -1 | wc -l)" >> README.md
+	echo "Number of lines in guessinggame.sh : $$(wc -l < guessinggame.sh" >> README.md
