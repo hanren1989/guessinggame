@@ -1,5 +1,5 @@
-# Guess Game Project
+# Guessing game project
 
-## Created on: 2025-06-03 21:58:23
+Date and Time: Thu Jun 19 16:57:04 EDT 2025
 
-### Number of lines in guessinggame.sh:       19
+Number of lines in guessinggame.sh :       34
