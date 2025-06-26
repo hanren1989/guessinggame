@@ -3,7 +3,7 @@
 
 # count the files
 
-numberofdir=$(ls -a| wc -w)
+numberofdir=$(ls -A| wc -w)
 
 echo "Guess how many files are there in the current directory?"
 
