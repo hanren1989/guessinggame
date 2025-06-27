@@ -3,7 +3,7 @@
 
 # count the files
 
-numberofdir=$(ls -A| wc -w)
+numberofdir=$(ls -A | while IFS= read -r file; do echo "$file"; done | wc -l)
 
 echo "Guess how many files are there in the current directory?"
 
